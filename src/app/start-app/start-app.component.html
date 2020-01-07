@@ -1,0 +1,16 @@
+<p>
+  start-app works!
+</p>
+
+<div>
+  <app-date-picker
+    name="todo-due-date"
+    data-test="todo-duedate"
+    [(ngModel)]="date"
+    placeholder="Enter due date"
+  ></app-date-picker>
+</div>
+
+<div>
+  <a mat-raised-button [routerLink]="['/greeting']">Next</a>
+</div>
